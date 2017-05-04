@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_billAmount"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp">
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="@string/tip_15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_tip_15"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/input_layout_billAmount"
+        android:layout_toStartOf="@+id/input_layout_billAmount"
+        android:layout_marginRight="42dp"
+        android:layout_marginEnd="42dp" />
+
+    <Button
+        android:text="@string/tip_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_tip_20"
+        android:layout_alignBaseline="@+id/button_tip_15"
+        android:layout_alignBottom="@+id/button_tip_15"
+        android:layout_alignLeft="@+id/input_layout_billAmount"
+        android:layout_alignStart="@+id/input_layout_billAmount" />
+
+    <EditText
+        android:id="@+id/input_billAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tip_hint"
+        android:inputType="phone"
+        android:layout_above="@+id/button_tip_20"
+        android:layout_alignRight="@+id/button_tip_20"
+        android:layout_alignEnd="@+id/button_tip_20"
+        android:layout_alignLeft="@+id/button_tip_15"
+        android:layout_alignStart="@+id/button_tip_15" />
+
+
+    <TextView
+        android:text="@string/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_above="@+id/input_billAmount"
+        android:layout_toRightOf="@+id/input_layout_billAmount"
+        android:layout_toEndOf="@+id/input_layout_billAmount"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        tools:text="150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/totalAmount"
+        android:layout_alignBaseline="@+id/input_billAmount"
+        android:layout_alignBottom="@+id/input_billAmount"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+</RelativeLayout>

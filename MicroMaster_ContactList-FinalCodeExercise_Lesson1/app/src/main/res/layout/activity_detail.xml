@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/contact"
+        android:id="@+id/imageView"
+        android:layout_alignTop="@+id/contact_name"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        tools:text="Smith"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_last_name"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignLeft="@+id/contact_name"
+        android:layout_alignStart="@+id/contact_name" />
+
+    <TextView
+        tools:text="Sam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_weight="0.04"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textViewPhoneNumber"
+        android:layout_alignStart="@+id/textViewPhoneNumber" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewEmail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_above="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:text="@string/hint_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView4"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:text="@string/hint_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/contact_last_name"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPhoneNumber"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textViewEmail"
+        android:layout_alignStart="@+id/textViewEmail" />
+
+</RelativeLayout>

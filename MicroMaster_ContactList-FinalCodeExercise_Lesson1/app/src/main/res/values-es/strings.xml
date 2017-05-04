@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lista de Contactos</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_last_name">Apellido</string>
+    <string name="hint_phone_number">Numero de Telefono</string>
+    <string name="button_new_contact">Crear Contacto</string>
+</resources>
