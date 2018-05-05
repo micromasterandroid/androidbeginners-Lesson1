@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Get EditText references
-        nameEditText = (EditText) findViewById(R.id.input_name);
-        lastNameEditText = (EditText) findViewById(R.id.input_lastName);
-        emailEditText = (EditText) findViewById(R.id.input_email);
-        phoneNumberEditText = (EditText) findViewById(R.id.input_phoneNumber);
+        nameEditText = findViewById(R.id.input_name);
+        lastNameEditText = findViewById(R.id.input_lastName);
+        emailEditText = findViewById(R.id.input_email);
+        phoneNumberEditText = findViewById(R.id.input_phoneNumber);
 
-        Button button = (Button) findViewById(R.id.button_create_contact);
+        Button button = findViewById(R.id.button_create_contact);
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {

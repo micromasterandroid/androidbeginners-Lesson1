@@ -11,10 +11,10 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        TextView contactName = (TextView) findViewById(R.id.contact_name);
-        TextView contactLastName = (TextView) findViewById(R.id.contact_last_name);
-        TextView contactEmail = (TextView) findViewById(R.id.textViewEmail);
-        TextView contactPhoneNumber = (TextView) findViewById(R.id.textViewPhoneNumber);
+        TextView contactName = findViewById(R.id.contact_name);
+        TextView contactLastName = findViewById(R.id.contact_last_name);
+        TextView contactEmail = findViewById(R.id.textViewEmail);
+        TextView contactPhoneNumber = findViewById(R.id.textViewPhoneNumber);
 
         Bundle b = new Bundle();
         b = getIntent().getExtras();

@@ -1,12 +1,13 @@
 package micromaster.beginner.com.tipcalculator;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -25,10 +26,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             initialTotalValue = savedInstanceState.getString("totalAmount");
         }
 
-        input_billAmount = (EditText) findViewById(R.id.input_billAmount);
-        buttonTip15 = (Button) findViewById(R.id.button_tip_15);
-        buttonTip20 = (Button) findViewById(R.id.button_tip_20);
-        totalAmount = (TextView) findViewById(R.id.totalAmount);
+        input_billAmount = findViewById(R.id.input_billAmount);
+        buttonTip15 = findViewById(R.id.button_tip_15);
+        buttonTip20 = findViewById(R.id.button_tip_20);
+        totalAmount = findViewById(R.id.totalAmount);
 
         buttonTip15.setOnClickListener(this);
         buttonTip20.setOnClickListener(this);
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Double tipDoubleValue = parseTip(input_billAmount.getText().toString());
         if (tipDoubleValue != null) {
             tipDoubleValue += tipDoubleValue * tipValue;
-            totalAmount.setText(tipDoubleValue.toString());
+            totalAmount.setText(String.format(Locale.ENGLISH,"%.2f",tipDoubleValue));
         }
     }
 

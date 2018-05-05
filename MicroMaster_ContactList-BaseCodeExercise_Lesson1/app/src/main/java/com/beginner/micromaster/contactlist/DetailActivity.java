@@ -11,7 +11,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        TextView contactName = (TextView) findViewById(R.id.contact_name);
+        TextView contactName = findViewById(R.id.contact_name);
 
         Bundle b = new Bundle();
         b = getIntent().getExtras();

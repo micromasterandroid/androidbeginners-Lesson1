@@ -13,12 +13,13 @@
         android:id="@+id/imageView"
         android:layout_alignTop="@+id/contact_name"
         android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_alignStart="@+id/textView3"
+        android:contentDescription="@string/contact_profile_picture_descriptor"/>
 
     <TextView
         tools:text="Smith"
         android:textStyle="bold"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/contact_last_name"
@@ -33,15 +34,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/contact_name"
         android:textStyle="bold"
-        android:textSize="18dp"
-        android:layout_weight="0.04"
+        android:textSize="18sp"
         android:layout_marginTop="31dp"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/textViewPhoneNumber"
         android:layout_alignStart="@+id/textViewPhoneNumber" />
 
     <TextView
-        android:text="TextView"
+        tools:text="Contact Email Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textViewEmail"
@@ -76,7 +76,7 @@
         android:layout_alignStart="@+id/textView4" />
 
     <TextView
-        android:text="TextView"
+        tools:text="Contact Phone Number Field"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textViewPhoneNumber"

@@ -6,8 +6,9 @@
     <string name="hint_phone_number">Phone Number</string>
     <string name="button_new_contact">Create Contact</string>
     <string name="button_add_contact">Add New Contact</string>
-
-    <!--TODO: add content description string for the rest of the views on activity_main.xml-->
     <string name="description_input_name">User name</string>
+    <string name="contact_profile_picture_descriptor">Contact Profile Picture</string>
+    <!--TODO: add content description string for the rest of the views on activity_main.xml-->
+    <string name="phoneNumber">%s</string>
 
 </resources>

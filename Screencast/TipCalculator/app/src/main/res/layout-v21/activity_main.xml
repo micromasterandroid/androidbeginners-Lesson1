@@ -26,7 +26,6 @@
         android:layout_below="@+id/tvBillAmount"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:hint="@string/main.hint.billamount"
         android:textColor="@color/colorWhite"
@@ -56,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
-            android:background="@color/colorBlue"
+            android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon_sad"
             android:contentDescription="@string/regular_service_tip_button"/>
 
@@ -65,7 +64,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
-            android:background="@color/colorBlue"
+            android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon_happy"
             android:contentDescription="@string/good_service_tip_button"/>
 
@@ -74,7 +73,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/activity_image_buttons"
             android:layout_weight="1"
-            android:background="@color/colorBlue"
+            android:backgroundTint="@color/colorBlue"
             android:src="@drawable/emoticon"
             android:contentDescription="@string/excellent_service_tip_button"/>
 
@@ -95,7 +94,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/vRatingSeparator"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textColor="@color/colorWhite"
         android:gravity="center"

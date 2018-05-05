@@ -5,4 +5,5 @@
     <string name="hint_last_name">Last Name</string>
     <string name="hint_phone_number">Phone Number</string>
     <string name="button_new_contact">Create Contact</string>
+    <string name="contact_profile_picture_descriptor">Contact Profile Picture</string>
 </resources>

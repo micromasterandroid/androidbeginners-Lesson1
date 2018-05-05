@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ContactList.iml" filepath="$PROJECT_DIR$/ContactList.iml" />
+      <module fileurl="file://C:\Users\EEVGG\Desktop\Projects\androidbeginners-Lesson1\MicroMaster_ContactList-master\ContactList.iml" filepath="C:\Users\EEVGG\Desktop\Projects\androidbeginners-Lesson1\MicroMaster_ContactList-master\ContactList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroMaster_ContactList-master.iml" filepath="$PROJECT_DIR$/MicroMaster_ContactList-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\EEVGG\Desktop\Projects\androidbeginners-Lesson1\MicroMaster_ContactList-master\app\app.iml" filepath="C:\Users\EEVGG\Desktop\Projects\androidbeginners-Lesson1\MicroMaster_ContactList-master\app\app.iml" />
     </modules>
   </component>
 </project>

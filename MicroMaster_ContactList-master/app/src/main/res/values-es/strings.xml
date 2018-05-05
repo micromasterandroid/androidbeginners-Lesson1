@@ -5,4 +5,7 @@
     <string name="hint_last_name">Apellido</string>
     <string name="hint_phone_number">Numero de Telefono</string>
     <string name="button_new_contact">Crear Contacto</string>
+    <string name="button_add_contact">Agregar Nueveo Contacto</string>
+    <string name="description_input_name">Nombre de Usuario</string>
+    <string name="contact_profile_picture_descriptor">Imagen de Perfil del Contacto</string>
 </resources>

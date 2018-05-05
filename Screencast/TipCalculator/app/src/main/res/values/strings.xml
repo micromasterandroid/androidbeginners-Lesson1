@@ -7,4 +7,7 @@
     <string name="main.msg.tiptotal">$%s Tip Total</string>
     <string name="main.msg.billtotal">Bill Total</string>
     <string name="main.msg.billtotalresult">$%s</string>
+    <string name="regular_service_tip_button">Regular Service Tip Button</string>
+    <string name="good_service_tip_button">Good Service Tip Button</string>
+    <string name="excellent_service_tip_button">Excellent Service Tip Button</string>
 </resources>

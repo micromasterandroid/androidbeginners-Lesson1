@@ -11,7 +11,7 @@
     tools:context="com.beginner.micromaster.contactlist.DetailActivity">
 
     <TextView
-        android:text="TextView"
+        tools:text="Contact Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
