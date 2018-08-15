@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 String phoneNumber = phoneNumberEditText.getText().toString();
 
                 //Get values from EditText and create a new Contact
-                Integer phoneNumberInt = parsePhoneNumber(phoneNumber);
+                Long phoneNumberInt = Long.parseLong(phoneNumber);
                 if (phoneNumberInt != null) {
                     createNewContact(name, lastName, email, phoneNumberInt);
                 }
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void createNewContact(String name, String lastName, String email, Integer phoneNumber) {
+    private void createNewContact(String name, String lastName, String email, long phoneNumber) {
         Contact contact = new Contact(name, lastName, email, phoneNumber);
         Log.d(TAG, "New contact created: " + contact.toString());
         clearEditText();
